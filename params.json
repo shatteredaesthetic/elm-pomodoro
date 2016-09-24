@@ -1,0 +1,6 @@
+{
+  "name": "Elm-pomodoro",
+  "tagline": "Pomodoro Clock written in Elm",
+  "body": "# elm-pomodoro clock\r\n\r\nPomodoro Clock written in the Elm Language.\r\n\r\nMore to come...\r\n\r\n### Changelog\r\n\r\n**Ver 0.1.0**\r\n* Initial commit: clone elm-webpack-starter\r\n\r\n**Ver 0.2.0**\r\n* Working Logic\r\n* Base Styles\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
