@@ -30,13 +30,6 @@ view configState =
         ]
 
 
-parcelStyle : List Attr
-parcelStyle =
-    [ "align-items" => "stretch"
-    , "background" => "#4717f6"
-    ]
-
-
 rightSide : List Attr
 rightSide =
     [ "flex-direction" => "column"

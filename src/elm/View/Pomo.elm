@@ -91,13 +91,6 @@ splitStyle =
     [ "justify-content" => "space-between" ]
 
 
-parcelStyle : List Attr
-parcelStyle =
-    [ "align-items" => "stretch"
-    , "background" => "#4717f6"
-    ]
-
-
 expandStyle : List Attr
 expandStyle =
     [ "flex" => "1" ]
@@ -109,7 +102,7 @@ titleStyle =
     , "font-size" => "4em"
     , "color" => "#4717f6"
     , "position" => "absolute"
-    , "top" => "-60px"
+    , "top" => "-55px"
     ]
 
 
@@ -117,7 +110,7 @@ labelStyle : List Attr
 labelStyle =
     [ "text-shadow" => "1px -1px 1px #e7dfdd"
     , "position" => "absolute"
-    , "bottom" => "-20px"
+    , "bottom" => "-18px"
     ]
 
 
@@ -140,5 +133,5 @@ footerStyle : List Attr
 footerStyle =
     [ "position" => "absolute"
     , "right" => "4px"
-    , "bottom" => "-12px"
+    , "bottom" => "-10px"
     ]

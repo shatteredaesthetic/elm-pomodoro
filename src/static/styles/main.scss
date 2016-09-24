@@ -1,9 +1,4 @@
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
-@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
-
-// can add Boostrap overrides, additional Sass/CSS below...
 .fa-chevron-up, .fa-chevron-down, .fa-play-circle-o,
 .fa-pause-circle-o, .fa-refresh {
-  text-shadow : "1px 1px 1px #e7dfdd";
+  text-shadow : "3px 3px 4px #e7dfdd";
 }

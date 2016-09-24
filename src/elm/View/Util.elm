@@ -62,3 +62,10 @@ columnStyle =
 relativeStyle : List Attr
 relativeStyle =
     [ "position" => "relative" ]
+
+
+parcelStyle : List Attr
+parcelStyle =
+    [ "align-items" => "stretch"
+    , "background" => "#4717f6"
+    ]
