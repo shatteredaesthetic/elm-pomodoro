@@ -17,8 +17,8 @@ initState defaults =
 
 initConfig : ConfigState
 initConfig =
-    { session = Count.init 15 10 20
-    , short = Count.init 4 2 7
-    , long = Count.init 7 5 10
-    , cycles = Count.init 3 2 4
+    { session = Count.init "Session" 15 10 20
+    , short = Count.init "Short Break" 4 2 7
+    , long = Count.init "Long Break" 7 5 10
+    , cycles = Count.init "Cycles" 3 2 4
     }

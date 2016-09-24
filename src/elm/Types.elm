@@ -53,7 +53,8 @@ type Msg
 
 
 type alias BoundedCounter =
-    { num : Int
+    { label : String
+    , num : Int
     , minN : Int
     , maxN : Int
     }

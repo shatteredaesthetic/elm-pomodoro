@@ -6,9 +6,9 @@ import Types exposing (..)
 -- INIT
 
 
-init : Int -> Int -> Int -> BoundedCounter
-init cnt mx mn =
-    BoundedCounter cnt mx mn
+init : String -> Int -> Int -> Int -> BoundedCounter
+init lbl cnt mx mn =
+    BoundedCounter lbl cnt mx mn
 
 
 

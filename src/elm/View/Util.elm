@@ -14,7 +14,7 @@ type alias Attr =
     ( String, String )
 
 
-styleList : List (List Attr) -> Attribute ChangeCounter
+styleList : List (List Attr) -> Attribute Msg
 styleList lists =
     style <| List.concat lists
 
@@ -34,3 +34,31 @@ centerStyle =
     [ "justify-content" => "center"
     , "align-items" => "center"
     ]
+
+
+btnStyle : List Attr
+btnStyle =
+    [ "display" => "flex"
+    , "flex" => "1"
+    , "font-size" => "3em"
+    , "cursor" => "pointer"
+    , "justify-content" => "center"
+    , "align-items" => "center"
+    ]
+
+
+stretchStyle : List Attr
+stretchStyle =
+    [ "width" => "65%"
+    , "height" => "65%"
+    ]
+
+
+columnStyle : List Attr
+columnStyle =
+    [ "flex-direction" => "column" ]
+
+
+relativeStyle : List Attr
+relativeStyle =
+    [ "position" => "relative" ]

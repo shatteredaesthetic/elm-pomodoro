@@ -8,3 +8,6 @@ More to come...
 
 **Ver 0.1.0**
 * Initial commit: clone elm-webpack-starter
+**Ver 0.2.0**
+* Working Logic
+* Base Styles

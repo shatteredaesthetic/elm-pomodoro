@@ -1,14 +1,12 @@
 module Main exposing (..)
 
---import Html.App as App
---import Html.Events exposing (onClick)
-
-import Html exposing (Html)
+import Html exposing (Html, div)
 import Html.App as App
 import Time exposing (Time, every, second)
 import Types exposing (..)
 import View.Config as Cfg
 import View.Pomo as Pomo
+import View.Util exposing (..)
 import State exposing (updateApp)
 import State.Init exposing (initConfig)
 
@@ -28,12 +26,16 @@ main =
 
 view : AppState -> Html Msg
 view appState =
-    case appState of
-        Config cfg ->
-            Cfg.view cfg
+    let
+        body =
+            case appState of
+                Config cfg ->
+                    Cfg.view cfg
 
-        Running state ->
-            Pomo.view state
+                Running state ->
+                    Pomo.view state
+    in
+        div [ styleList [ fullScreen, flexStyle, centerStyle ] ] [ body ]
 
 
 
@@ -44,3 +46,12 @@ view appState =
 subscriptions : AppState -> Sub Msg
 subscriptions model =
     Time.every second Tick
+
+
+fullScreen : List Attr
+fullScreen =
+    [ "width" => "100vw"
+    , "height" => "100vh"
+    , "border" => "1px solid red"
+    , "background" => "#0e0b16"
+    ]

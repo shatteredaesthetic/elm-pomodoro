@@ -39,10 +39,13 @@ update msg cfg =
 
         StartCount ->
             let
+                f =
+                    .num >> ((*) 60)
+
                 defaults =
-                    Defaults cfg.session.num cfg.short.num cfg.long.num cfg.cycles.num
+                    Defaults (f cfg.session) (f cfg.short) (f cfg.long) cfg.cycles.num
             in
-                (Running <| initState defaults) ! [ delay sec' TogglePlay ]
+                (Running <| initState defaults) ! [ delay ms10 TogglePlay ]
 
         _ ->
             Config cfg ! []
