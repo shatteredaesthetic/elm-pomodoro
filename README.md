@@ -2,7 +2,7 @@
 
 Pomodoro Clock written in the Elm Language.
 
-[try it out here][https://shatteredaesthetic.github.io/elm-pomodoro/]
+[try it out here](https://shatteredaesthetic.github.io/elm-pomodoro/)
 
 More to come...
 
