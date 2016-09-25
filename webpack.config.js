@@ -36,7 +36,7 @@ var commonConfig = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/static/index.html',
+      template: 'index.html',
       inject:   'body',
       filename: 'index.html'
     })

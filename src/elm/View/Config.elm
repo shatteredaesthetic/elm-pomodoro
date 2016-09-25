@@ -33,7 +33,7 @@ view configState =
 rightSide : List Attr
 rightSide =
     [ "flex-direction" => "column"
-    , "justify-content" => "space-around"
+    , "justify-content" => "space-between"
     , "flex" => "4"
     ]
 
@@ -41,7 +41,7 @@ rightSide =
 leftSide : List Attr
 leftSide =
     [ "flex-direction" => "column"
-    , "justify-content" => "space-around"
+    , "justify-content" => "space-between"
     , "flex" => "4"
     ]
 
